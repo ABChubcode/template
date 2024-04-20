@@ -5,8 +5,6 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
-  <TransactionsProvider>
-    <App />
-  </TransactionsProvider>,
+    <App />,
   document.getElementById("root"),
 );
